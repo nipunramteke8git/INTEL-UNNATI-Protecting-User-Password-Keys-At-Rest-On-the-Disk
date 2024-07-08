@@ -15,15 +15,13 @@ Application Workflow
    d) The file or directory is decrypted using the FEK.
 
 Features
-  1.AES-256 Encryption: Ensures strong encryption for files and directories.
-  2.Key Derivation Function (KDF): Securely derives encryption keys from user passphrases.
-  3.Random Key Generation: Generates a random FEK for each encryption operation.
-  4.User Passphrase: Protects the FEK and ensures that only authorized users can decrypt the files.
+  1. AES-256 Encryption: Ensures strong encryption for files and directories.
+  2. Key Derivation Function (KDF): Securely derives encryption keys from user passphrases.
+  3. Random Key Generation: Generates a random FEK for each encryption operation.
+  4. User Passphrase: Protects the FEK and ensures that only authorized users can decrypt the files.
 
-Getting Started
 Prerequisites
-
-  OpenSSL library (for C++ implementation)
-  Python 3 and relevant libraries (for Python implementation)
-  C++ compiler (for C++ implementation)
-  CMake (for C++ implementation)
+  a) OpenSSL library (for C++ implementation)
+  b) Python 3 and relevant libraries (for Python implementation)
+  c) C++ compiler (for C++ implementation)
+  d) CMake (for C++ implementation)
